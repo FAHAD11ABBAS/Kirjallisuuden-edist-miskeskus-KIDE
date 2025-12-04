@@ -1,26 +1,51 @@
 {
     "nav": {
-        "home": "Home",
-        "about": "About Us",
-        "projects": "Projects",
-        "contact": "Contact"
+        "home": "In Finnish",
+        "toiminta": "Activities",
+        "apurahat": "Grants",
+        "valtuuskunta": "Council"
     },
     "hero": {
-        "title": "Literature Promotion Center KIDE",
-        "subtitle": "Promoting Finnish literature and literacy.",
-        "cta": "Read More"
+        "title": "Literature Promotion Centre KIDE",
+        "subtitle": "This can implement only the introduction field KIDE in a nutshell",
+        "language": "In Swedish"
     },
-    "about": {
-        "title": "About Us",
-        "text": "KIDE is dedicated to strengthening the position of literature in society. We support authors, translators, and readers in many ways."
+    "toiminta": {
+        "title": "ACTIVITIES",
+        "description": "KIDE grants annual targeted grants for fiction writers' tools and travel required for fictional work. The application period for grants is annually in March and October.",
+        "button": "TO GRANT SYSTEM",
+        "info": "KIDE offers work residencies for Finnish and Swedish-language fiction writers. Residence activities are currently in Athens."
     },
-    "features": {
-        "title": "Our Activities",
-        "item1": "Author Meetings",
-        "item2": "Reading Circles",
-        "item3": "Grants"
+    "apurahat": {
+        "title": "GRANTS",
+        "description": "KIDE grants annual targeted grants for fiction writers' tools and travel required for fictional work. The application period for grants is annually in March and October.",
+        "info": "The grant recipient must submit a report on the use of the grant to the Literature Promotion Centre through the grant system.",
+        "button": "TO GRANT SYSTEM"
+    },
+    "valtuuskunta": {
+        "title": "COUNCIL",
+        "description": "KIDE grants annual targeted grants for fiction writers' tools and travel required for fictional work. The application period for grants is annually in March and October.",
+        "info": "The grant recipient must submit a report on the use of the grant to the Literature Promotion Centre through the grant system."
+    },
+    "kirjailijat": {
+        "title": "AUTHOR IMAGES",
+        "description": "KIDE grants annual targeted grants for fiction writers' tools and travel required for fictional work. The application period for grants is annually in March and October.",
+        "info": "The grant recipient must submit a report on the use of the grant to the Literature Promotion Centre through the grant system.",
+        "button": "TO GRANT SYSTEM"
+    },
+    "diagram": {
+        "title": "Caption for the image?",
+        "center": "Avoidance in mass made to benefit for the preparation of pieces for private use."
     },
     "footer": {
-        "rights": "© 2026 Literature Promotion Center KIDE. All rights reserved."
+        "title": "Literature Promotion Centre KIDE operates in connection with the Finnish Writers' Union.",
+        "organization": "Finnish Writers' Union",
+        "phone": "tel. 09 445 392",
+        "email": "info (at) kirjailijaliitto.fi",
+        "address": "Runeberginkatu 32 C 28, 00100 Helsinki",
+        "button1": "FINNISH WRITERS' UNION",
+        "button2": "FINLANDS SVENSKA FÖRFATTAREFÖRENING",
+        "links": "Privacy Statement | Accessibility Statement",
+        "rights": "© Finnish Writers' Union"
     }
 }
