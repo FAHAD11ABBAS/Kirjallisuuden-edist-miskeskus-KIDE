@@ -1,12 +1,24 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Globe, Menu, X } from 'lucide-react';
+import { Globe, Menu, X, Sun, Moon } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import './Header.css';
 
 const Header = () => {
     const { t, i18n } = useTranslation();
     const [isOpen, setIsOpen] = React.useState(false);
+    const [theme, setTheme] = React.useState(() => {
+        return localStorage.getItem('theme') || 'light';
+    });
+
+    React.useEffect(() => {
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+    }, [theme]);
+
+    const toggleTheme = () => {
+        setTheme(prev => prev === 'light' ? 'dark' : 'light');
+    };
 
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);
@@ -28,6 +40,9 @@ const Header = () => {
                 </nav>
 
                 <div className="actions">
+                    <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle theme">
+                        {theme === 'light' ? <Moon size={20} /> : <Sun size={20} />}
+                    </button>
                     <div className="lang-switcher">
                         <Globe size={20} />
                         <select

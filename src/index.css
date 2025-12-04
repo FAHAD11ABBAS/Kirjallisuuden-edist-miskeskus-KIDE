@@ -3,23 +3,29 @@
 :root {
   --font-heading: 'Playfair Display', serif;
   --font-body: 'Public Sans', sans-serif;
-  
+
   --color-bg: #ffffff;
   --color-text: #1a1a1a;
-  --color-primary: #d4af37; /* Gold-ish for premium feel */
-  --color-secondary: #2c3e50; /* Dark blue/slate */
-  --color-accent: #e74c3c; /* Subtle accent */
+  --color-primary: #d4af37;
+  /* Gold-ish for premium feel */
+  --color-secondary: #2c3e50;
+  /* Dark blue/slate */
+  --color-accent: #e74c3c;
+  /* Subtle accent */
   --color-surface: #f8f9fa;
   --color-border: #e9ecef;
+  --color-hero-overlay: rgba(0, 0, 0, 0.6);
 }
 
 [data-theme='dark'] {
-  --color-bg: #121212;
+  --color-bg: #0a0a0a;
   --color-text: #f8f9fa;
-  --color-primary: #f1c40f;
-  --color-secondary: #ecf0f1;
-  --color-surface: #1e1e1e;
-  --color-border: #333;
+  --color-primary: #ffd700;
+  --color-secondary: #1a1a2e;
+  --color-accent: #ff6b6b;
+  --color-surface: #16213e;
+  --color-border: #2a2a3e;
+  --color-hero-overlay: rgba(0, 0, 0, 0.8);
 }
 
 * {
@@ -32,11 +38,43 @@ body {
   font-family: var(--font-body);
   background-color: var(--color-bg);
   color: var(--color-text);
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.5s ease, color 0.5s ease;
   overflow-x: hidden;
+  position: relative;
 }
 
-h1, h2, h3, h4, h5, h6 {
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 20% 50%, rgba(212, 175, 55, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(44, 62, 80, 0.05) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: -1;
+  animation: backgroundPulse 15s ease-in-out infinite;
+}
+
+@keyframes backgroundPulse {
+
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
   font-weight: 700;
   line-height: 1.2;
@@ -95,5 +133,6 @@ button {
 
 /* Arabic Support */
 body[dir="rtl"] {
-  font-family: 'Public Sans', sans-serif; /* Fallback or specific Arabic font if needed */
+  font-family: 'Public Sans', sans-serif;
+  /* Fallback or specific Arabic font if needed */
 }

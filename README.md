@@ -1,16 +1,53 @@
-# React + Vite
+# Kirjallisuuden edistämiskeskus KIDE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern, responsive web application for the Literature Promotion Center KIDE.
+It is built with React, Vite, and Framer Motion, featuring a premium design and multi-language support (Finnish, English, Arabic).
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Premium Design**: Elegant typography (Playfair Display & Public Sans), gold/dark blue color scheme.
+- **Multi-language Support**: Seamless switching between FI, EN, and AR (with RTL support).
+- **Responsive**: Fully responsive layout for all devices.
+- **Animations**: Smooth entrance animations using Framer Motion.
+- **Components**: Custom React components mimicking WordPress blocks.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 18
+- Vite
+- Framer Motion
+- i18next
+- Lucide React
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Build for production:
+   ```bash
+   npm run build
+   ```
+
+## GitHub
+
+To push this project to GitHub:
+
+1. Create a new repository on GitHub named `kide-project`.
+2. Run the following commands:
+   ```bash
+   git remote add origin https://github.com/FAHAD11ABBAS/kide-project.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+## License
+
+Private project.

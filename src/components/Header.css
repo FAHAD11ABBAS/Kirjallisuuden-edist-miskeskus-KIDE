@@ -43,6 +43,24 @@
     gap: 1rem;
 }
 
+.theme-toggle {
+    background: none;
+    border: none;
+    color: var(--color-text);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+    background-color: var(--color-surface);
+    transform: rotate(20deg);
+}
+
 .lang-switcher {
     display: flex;
     align-items: center;
