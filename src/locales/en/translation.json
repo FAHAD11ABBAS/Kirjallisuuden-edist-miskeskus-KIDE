@@ -1,0 +1,26 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About Us",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Literature Promotion Center KIDE",
+        "subtitle": "Promoting Finnish literature and literacy.",
+        "cta": "Read More"
+    },
+    "about": {
+        "title": "About Us",
+        "text": "KIDE is dedicated to strengthening the position of literature in society. We support authors, translators, and readers in many ways."
+    },
+    "features": {
+        "title": "Our Activities",
+        "item1": "Author Meetings",
+        "item2": "Reading Circles",
+        "item3": "Grants"
+    },
+    "footer": {
+        "rights": "© 2024 Literature Promotion Center KIDE. All rights reserved."
+    }
+}

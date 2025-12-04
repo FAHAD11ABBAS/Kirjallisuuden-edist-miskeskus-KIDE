@@ -1,0 +1,26 @@
+{
+    "nav": {
+        "home": "Etusivu",
+        "about": "Meistä",
+        "projects": "Hankkeet",
+        "contact": "Ota yhteyttä"
+    },
+    "hero": {
+        "title": "Kirjallisuuden edistämiskeskus KIDE",
+        "subtitle": "Edistämme suomalaista kirjallisuutta ja lukutaitoa.",
+        "cta": "Lue lisää"
+    },
+    "about": {
+        "title": "Tietoa meistä",
+        "text": "KIDE on omistautunut kirjallisuuden aseman vahvistamiseen yhteiskunnassa. Tuemme kirjailijoita, kääntäjiä ja lukijoita monin eri tavoin."
+    },
+    "features": {
+        "title": "Toimintamme",
+        "item1": "Kirjailijatapaamiset",
+        "item2": "Lukupiirit",
+        "item3": "Apurahat"
+    },
+    "footer": {
+        "rights": "© 2024 Kirjallisuuden edistämiskeskus KIDE. Kaikki oikeudet pidätetään."
+    }
+}
