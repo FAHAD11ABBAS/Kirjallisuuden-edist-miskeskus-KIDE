@@ -38,6 +38,7 @@ const Header = () => {
                             className="lang-select"
                         >
                             <option value="fi">FI</option>
+                            <option value="sv">SV</option>
                             <option value="en">EN</option>
                             <option value="ar">AR</option>
                         </select>

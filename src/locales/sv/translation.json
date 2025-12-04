@@ -1,0 +1,51 @@
+{
+    "nav": {
+        "home": "På finska",
+        "toiminta": "Verksamhet",
+        "apurahat": "Stipendier",
+        "valtuuskunta": "Fullmäktige"
+    },
+    "hero": {
+        "title": "Litteraturfrämjandecentralen KIDE",
+        "subtitle": "Detta kan implementera endast introduktionsfältet KIDE i ett nötskal",
+        "language": "På svenska"
+    },
+    "toiminta": {
+        "title": "VERKSAMHET",
+        "description": "KIDE beviljar årligen riktade stipendier för skönlitterära författares arbetsredskap och de resor som det skönlitterära arbetet kräver. Ansökningstiden för stipendier är årligen i mars och oktober.",
+        "button": "TILL STIPENDIESYSTEMET",
+        "info": "KIDE erbjuder arbetsresidenser för finsk- och svenskspråkiga skönlitterära författare. Residensverksamhet pågår för närvarande i Aten."
+    },
+    "apurahat": {
+        "title": "STIPENDIER",
+        "description": "KIDE beviljar årligen riktade stipendier för skönlitterära författares arbetsredskap och de resor som det skönlitterära arbetet kräver. Ansökningstiden för stipendier är årligen i mars och oktober.",
+        "info": "Stipendiemottagaren ska lämna in en redogörelse över användningen av stipendiet till Litteraturfrämjandecentralen via stipendiesystemet.",
+        "button": "TILL STIPENDIESYSTEMET"
+    },
+    "valtuuskunta": {
+        "title": "FULLMÄKTIGE",
+        "description": "KIDE beviljar årligen riktade stipendier för skönlitterära författares arbetsredskap och de resor som det skönlitterära arbetet kräver. Ansökningstiden för stipendier är årligen i mars och oktober.",
+        "info": "Stipendiemottagaren ska lämna in en redogörelse över användningen av stipendiet till Litteraturfrämjandecentralen via stipendiesystemet."
+    },
+    "kirjailijat": {
+        "title": "FÖRFATTARBILDER",
+        "description": "KIDE beviljar årligen riktade stipendier för skönlitterära författares arbetsredskap och de resor som det skönlitterära arbetet kräver. Ansökningstiden för stipendier är årligen i mars och oktober.",
+        "info": "Stipendiemottagaren ska lämna in en redogörelse över användningen av stipendiet till Litteraturfrämjandecentralen via stipendiesystemet.",
+        "button": "TILL STIPENDIESYSTEMET"
+    },
+    "diagram": {
+        "title": "Rubrik för bilden?",
+        "center": "Undvikande i massa gjord till fördel för beredningen av stycken för privat bruk."
+    },
+    "footer": {
+        "title": "Litteraturfrämjandecentralen KIDE verkar i anslutning till Finlands Författarförbund.",
+        "organization": "Finlands Författarförbund rf",
+        "phone": "tfn 09 445 392",
+        "email": "info (at) kirjailijaliitto.fi",
+        "address": "Runebergsgatan 32 C 28, 00100 Helsingfors",
+        "button1": "FINLANDS FÖRFATTARFÖRBUND",
+        "button2": "FINLANDS SVENSKA FÖRFATTAREFÖRENING",
+        "links": "Dataskyddsutlåtande | Tillgänglighetsutlåtande",
+        "rights": "© Finlands Författarförbund rf"
+    }
+}
