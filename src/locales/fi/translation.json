@@ -1,26 +1,51 @@
 {
     "nav": {
-        "home": "Etusivu",
-        "about": "Meistä",
-        "projects": "Hankkeet",
-        "contact": "Ota yhteyttä"
+        "home": "Suomeksi",
+        "toiminta": "Toiminta",
+        "apurahat": "Apurahat",
+        "valtuuskunta": "Valtuuskunta"
     },
     "hero": {
         "title": "Kirjallisuuden edistämiskeskus KIDE",
-        "subtitle": "Edistämme suomalaista kirjallisuutta ja lukutaitoa.",
-        "cta": "Lue lisää"
+        "subtitle": "Tähän voi toteuttaa vain ingressikentän KIDE pähkinänkuoressa",
+        "language": "På svenska"
     },
-    "about": {
-        "title": "Tietoa meistä",
-        "text": "KIDE on omistautunut kirjallisuuden aseman vahvistamiseen yhteiskunnassa. Tuemme kirjailijoita, kääntäjiä ja lukijoita monin eri tavoin."
+    "toiminta": {
+        "title": "TOIMINTA",
+        "description": "KIDE myöntää vuosittain kohdeapurahoja kaunokirjailijoiden työvälineisiin ja kaunokirjallisen työn edellyttämiin matkoihin. Apurahojen hakuaika on vuosittain maalis­kuussa ja loka­kuussa.",
+        "button": "APURAHAJÄRJESTELMÄÄN",
+        "info": "KIDE tarjoaa työskentelyresidensejä suomen- ja ruotsinkielisille kaunokirjailijoille. Residenssitoimintaa on tällä hetkellä Ateenassa."
     },
-    "features": {
-        "title": "Toimintamme",
-        "item1": "Kirjailijatapaamiset",
-        "item2": "Lukupiirit",
-        "item3": "Apurahat"
+    "apurahat": {
+        "title": "APURAHAT",
+        "description": "KIDE myöntää vuosittain kohdeapurahoja kaunokirjailijoiden työvälineisiin ja kaunokirjallisen työn edellyttämiin matkoihin. Apurahojen hakuaika on vuosittain maalis­kuussa ja loka­kuussa.",
+        "info": "Apurahansaajan tulee toimittaa selvitys apurahan käytöstä Kirjallisuuden edistämiskeskukselle apurahajärjestelmän kautta.",
+        "button": "APURAHAJÄRJESTELMÄÄN"
+    },
+    "valtuuskunta": {
+        "title": "VALTUUSKUNTA",
+        "description": "KIDE myöntää vuosittain kohdeapurahoja kaunokirjailijoiden työvälineisiin ja kaunokirjallisen työn edellyttämiin matkoihin. Apurahojen hakuaika on vuosittain maalis­kuussa ja loka­kuussa.",
+        "info": "Apurahansaajan tulee toimittaa selvitys apurahan käytöstä Kirjallisuuden edistämiskeskukselle apurahajärjestelmän kautta."
+    },
+    "kirjailijat": {
+        "title": "KIRJAIJAKUVIA",
+        "description": "KIDE myöntää vuosittain kohdeapurahoja kaunokirjailijoiden työvälineisiin ja kaunokirjallisen työn edellyttämiin matkoihin. Apurahojen hakuaika on vuosittain maalis­kuussa ja loka­kuussa.",
+        "info": "Apurahansaajan tulee toimittaa selvitys apurahan käytöstä Kirjallisuuden edistämiskeskukselle apurahajärjestelmän kautta.",
+        "button": "APURAHAJÄRJESTELMÄÄN"
+    },
+    "diagram": {
+        "title": "Kuvalle otsikko?",
+        "center": "Vältto malassa tehdyllä hyväksi totsoon kappaletkien valmistamesta ykisityiseen käyttöön."
     },
     "footer": {
-        "rights": "© 2026 Kirjallisuuden edistämiskeskus KIDE. Kaikki oikeudet pidätetään."
+        "title": "Kirjallisuuden edistämiskeskus KIDE toimii Suomen Kirjailija­liiton yhtey­dessä.",
+        "organization": "Suomen Kirjailijaliitto ry",
+        "phone": "puh. 09 445 392",
+        "email": "info (at) kirjailijaliitto.fi",
+        "address": "Runeberginkatu 32 C 28, 00100 Helsinki",
+        "button1": "SUOMEN KIRJAILIJALIITTO",
+        "button2": "FINLANDS SVENSKA FÖRFATTAREFÖRENING",
+        "links": "Tietosuojaseloste | Saavutettavuusseloste",
+        "rights": "© Suomen Kirjailijaliitto ry"
     }
 }

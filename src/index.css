@@ -4,28 +4,28 @@
   --font-heading: 'Playfair Display', serif;
   --font-body: 'Public Sans', sans-serif;
 
-  --color-bg: #ffffff;
-  --color-text: #1a1a1a;
-  --color-primary: #d4af37;
-  /* Gold-ish for premium feel */
-  --color-secondary: #2c3e50;
-  /* Dark blue/slate */
-  --color-accent: #e74c3c;
-  /* Subtle accent */
-  --color-surface: #f8f9fa;
-  --color-border: #e9ecef;
-  --color-hero-overlay: rgba(0, 0, 0, 0.6);
+  --color-bg: #f5f5f0;
+  --color-text: #2d2d2d;
+  --color-primary: #2c7873;
+  /* Teal */
+  --color-secondary: #1a5550;
+  /* Dark Teal */
+  --color-accent: #4a9d96;
+  /* Light Teal */
+  --color-surface: #ffffff;
+  --color-border: #d4d4ca;
+  --color-hero-overlay: rgba(44, 120, 115, 0.7);
 }
 
 [data-theme='dark'] {
-  --color-bg: #0a0a0a;
-  --color-text: #f8f9fa;
-  --color-primary: #ffd700;
-  --color-secondary: #1a1a2e;
-  --color-accent: #ff6b6b;
-  --color-surface: #16213e;
-  --color-border: #2a2a3e;
-  --color-hero-overlay: rgba(0, 0, 0, 0.8);
+  --color-bg: #1a1a1a;
+  --color-text: #f5f5f0;
+  --color-primary: #4a9d96;
+  --color-secondary: #2c7873;
+  --color-accent: #6bb5af;
+  --color-surface: #2d2d2d;
+  --color-border: #3a3a3a;
+  --color-hero-overlay: rgba(26, 85, 80, 0.8);
 }
 
 * {

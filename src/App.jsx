@@ -1,10 +1,11 @@
 import React from 'react';
+import './i18n';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import About from './components/About';
-import Features from './components/Features';
+import Sections from './components/Sections';
+import DiagramSection from './components/DiagramSection';
+import AuthorsSection from './components/AuthorsSection';
 import Footer from './components/Footer';
-import './i18n';
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <About />
-        <Features />
+        <Sections />
+        <DiagramSection />
+        <AuthorsSection />
       </main>
       <Footer />
     </div>
