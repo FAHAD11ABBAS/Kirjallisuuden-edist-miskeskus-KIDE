@@ -21,10 +21,10 @@ const Header = () => {
                         Suomeksi
                     </button>
                     <button
-                        className={`lang-btn ${i18n.language === 'sv' ? 'active' : ''}`}
-                        onClick={() => changeLanguage('sv')}
+                        className={`lang-btn ${i18n.language === 'en' ? 'active' : ''}`}
+                        onClick={() => changeLanguage('en')}
                     >
-                        På svenska
+                        In English
                     </button>
                 </div>
             </div>

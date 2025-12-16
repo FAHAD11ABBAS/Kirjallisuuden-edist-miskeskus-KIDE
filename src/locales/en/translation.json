@@ -1,20 +1,23 @@
 {
     "nav": {
-        "home": "In Finnish",
+        "home": "Suomeksi",
         "toiminta": "Activities",
         "apurahat": "Grants",
         "valtuuskunta": "Council"
     },
     "hero": {
         "title": "Literature Promotion Centre KIDE",
-        "subtitle": "This can implement only the introduction field KIDE in a nutshell",
-        "language": "In Swedish"
+        "subtitle": "KIDE in a nutshell",
+        "language": "In English",
+        "lang_fi": "In Finnish"
     },
     "toiminta": {
         "title": "ACTIVITIES",
         "description": "KIDE grants annual targeted grants for fiction writers' tools and travel required for fictional work. The application period for grants is annually in March and October.",
         "button": "TO GRANT SYSTEM",
-        "info": "KIDE offers work residencies for Finnish and Swedish-language fiction writers. Residence activities are currently in Athens."
+        "info": "KIDE offers work residencies for Finnish and Swedish-language fiction writers. Residence activities are currently in Athens.",
+        "button2": "DISCOVER RESIDENCE",
+        "info2": "KIDE implements training that maintains writers' professional skills. KIDE courses are announced in member letters of the Finnish Writers' Union and Finlands svenska författareförening."
     },
     "apurahat": {
         "title": "GRANTS",
@@ -24,21 +27,37 @@
     },
     "valtuuskunta": {
         "title": "COUNCIL",
-        "description": "KIDE grants annual targeted grants for fiction writers' tools and travel required for fictional work. The application period for grants is annually in March and October.",
-        "info": "The grant recipient must submit a report on the use of the grant to the Literature Promotion Centre through the grant system."
+        "description": "The activities of the Literature Promotion Centre KIDE are administered by a council elected by the Board of the Finnish Writers' Union.",
+        "list_title": "KIDE Council:",
+        "list_items": [
+            "Mia Franck, author",
+            "Anne Helttunen, mother tongue teacher and non-fiction writer",
+            "Ville Hytönen, Chairman of the Council",
+            "Anneli Kanto, author",
+            "Sinikka Vuola, author"
+        ],
+        "info": "The Executive Director of the Finnish Writers' Union acts as the secretary of the council."
     },
-    "kirjailijat": {
+    "kirjailijakuvia": {
         "title": "AUTHOR IMAGES",
-        "description": "KIDE grants annual targeted grants for fiction writers' tools and travel required for fictional work. The application period for grants is annually in March and October.",
-        "info": "The grant recipient must submit a report on the use of the grant to the Literature Promotion Centre through the grant system.",
-        "button": "TO GRANT SYSTEM"
+        "description": "Literature Promotion Centre KIDE produced the Author Images documentary series from 1988 to 2012.",
+        "p1": "In the series, domestic authors representing different literary genres tell about their work, influences, and production themselves, each in their own way. The series introduces both Finnish and Swedish-speaking authors.",
+        "p2": "A total of 49 documentaries appeared in the series.",
+        "p3": "Libraries can both borrow documentaries and show them at free public events. Documentaries are also suitable for supporting mother tongue and literature teaching.",
+        "p4": "The documentaries are about 20–40 minutes long. Documentaries can be purchased and borrowed from the Writers' Union office.",
+        "button": "DISCOVER DOCUMENTARIES"
     },
     "diagram": {
-        "title": "Caption for the image?",
-        "center": "Avoidance in mass made to benefit for the preparation of pieces for private use."
+        "title": "Caption for image?",
+        "caption": "Possibility to write an explanatory caption here. Possibility to write an explanatory caption here. Possibility to write an explanatory caption here."
     },
     "footer": {
         "title": "Literature Promotion Centre KIDE operates in connection with the Finnish Writers' Union.",
+        "left_nav": {
+            "apurahat": "Target Grants",
+            "residenssit": "Writer Residencies",
+            "koulutusta": "Education"
+        },
         "organization": "Finnish Writers' Union",
         "phone": "tel. 09 445 392",
         "email": "info (at) kirjailijaliitto.fi",
