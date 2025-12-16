@@ -7,14 +7,17 @@
     },
     "hero": {
         "title": "Kirjallisuuden edistämiskeskus KIDE",
-        "subtitle": "Tähän voi toteuttaa vain ingressikentän KIDE pähkinänkuoressa",
-        "language": "På svenska"
+        "subtitle": "Tähän voi toteuttaa vain ingressikentän \"KIDE pähkinänkuoressa\"",
+        "language": "På svenska",
+        "lang_fi": "Suomeksi"
     },
     "toiminta": {
         "title": "TOIMINTA",
         "description": "KIDE myöntää vuosittain kohdeapurahoja kaunokirjailijoiden työvälineisiin ja kaunokirjallisen työn edellyttämiin matkoihin. Apurahojen hakuaika on vuosittain maalis­kuussa ja loka­kuussa.",
         "button": "APURAHAJÄRJESTELMÄÄN",
-        "info": "KIDE tarjoaa työskentelyresidensejä suomen- ja ruotsinkielisille kaunokirjailijoille. Residenssitoimintaa on tällä hetkellä Ateenassa."
+        "info": "KIDE tarjoaa työskentelyresidensejä suomen- ja ruotsinkielisille kaunokirjailijoille. Residenssitoimintaa on tällä hetkellä Ateenassa.",
+        "button2": "TUTUSTU RESIDENSSIIN",
+        "info2": "KIDE toteuttaa kirjailijan ammattitaitoa ylläpitävää koulutusta. KIDEn kursseista ilmoitetaan Suomen Kirjailijaliiton ja Finlands svenska författareföreningin jäsenkirjeissä."
     },
     "apurahat": {
         "title": "APURAHAT",
@@ -24,21 +27,37 @@
     },
     "valtuuskunta": {
         "title": "VALTUUSKUNTA",
-        "description": "KIDE myöntää vuosittain kohdeapurahoja kaunokirjailijoiden työvälineisiin ja kaunokirjallisen työn edellyttämiin matkoihin. Apurahojen hakuaika on vuosittain maalis­kuussa ja loka­kuussa.",
-        "info": "Apurahansaajan tulee toimittaa selvitys apurahan käytöstä Kirjallisuuden edistämiskeskukselle apurahajärjestelmän kautta."
+        "description": "Kirjallisuuden edistämiskeskus KIDEn toimintaa hallinnoi Suomen Kirjailija­liiton johtokunnan valitsema valtuuskunta.",
+        "list_title": "KIDEn valtuuskunta:",
+        "list_items": [
+            "Mia Franck, kirjailija",
+            "Anne Helttunen, äidinkielenopettaja ja tietokirjailija",
+            "Ville Hytönen, valtuuskunnan puheenjohtaja",
+            "Anneli Kanto, kirjailija",
+            "Sinikka Vuola, kirjailija"
+        ],
+        "info": "Valtuuskunnan sihteerinä toimii Suomen Kirjailijaliiton toiminnanjohtaja."
     },
-    "kirjailijat": {
-        "title": "KIRJAIJAKUVIA",
-        "description": "KIDE myöntää vuosittain kohdeapurahoja kaunokirjailijoiden työvälineisiin ja kaunokirjallisen työn edellyttämiin matkoihin. Apurahojen hakuaika on vuosittain maalis­kuussa ja loka­kuussa.",
-        "info": "Apurahansaajan tulee toimittaa selvitys apurahan käytöstä Kirjallisuuden edistämiskeskukselle apurahajärjestelmän kautta.",
-        "button": "APURAHAJÄRJESTELMÄÄN"
+    "kirjailijakuvia": {
+        "title": "KIRJAILIJAKUVIA",
+        "description": "Kirjallisuuden edistämiskeskus KIDE tuotti Kirjailijakuvia-dokumenttisarjaa vuodesta 1988 vuoteen 2012.",
+        "p1": "Sarjassa eri kirjallisuudenlajeja edustavat kotimaiset kirjailijat kertovat työstään, vaikutteistaan ja tuotannostaan itse, kukin omalla tavallaan. Sarjassa esitellään sekä suomen- että ruotsinkielisiä kirjailijoita.",
+        "p2": "Sarjassa ilmestyi yhteensä 49 dokumenttia.",
+        "p3": "Kirjastot voivat sekä lainata dokumentteja että esittää niitä maksuttomissa yleisötilaisuuksissa. Dokumentit sopivat myös äidinkielen ja kirjallisuuden opetuksen tueksi.",
+        "p4": "Kestoltaan dokumentit ovat noin 20–40 minuuttia. Dokumentteja voi ostaa ja lainata Kirjailijaliiton toimistolta.",
+        "button": "TUTUSTU DOKUMENTTEIHIN"
     },
     "diagram": {
         "title": "Kuvalle otsikko?",
-        "center": "Vältto malassa tehdyllä hyväksi totsoon kappaletkien valmistamesta ykisityiseen käyttöön."
+        "caption": "Tähän mahdollisuus kirjoittaa selittävä kuvateksti. Tähän mahdollisuus kirjoittaa selittävä kuvateksti. Tähän mahdollisuus kirjoittaa selittävä kuvateksti. Tähän mahdollisuus kirjoittaa selittävä kuvateksti."
     },
     "footer": {
         "title": "Kirjallisuuden edistämiskeskus KIDE toimii Suomen Kirjailija­liiton yhtey­dessä.",
+        "left_nav": {
+            "apurahat": "Kohdeapurahoja",
+            "residenssit": "Kirjailijaresidenssejä",
+            "koulutusta": "Koulutusta"
+        },
         "organization": "Suomen Kirjailijaliitto ry",
         "phone": "puh. 09 445 392",
         "email": "info (at) kirjailijaliitto.fi",

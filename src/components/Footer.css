@@ -1,108 +1,124 @@
 .footer {
-    width: 100%;
-    background-color: var(--color-secondary);
+    background-color: #064040;
+    /* Dark Teal */
     color: white;
-}
-
-.footer-main {
-    padding: 4rem 2rem;
+    padding-top: 4rem;
 }
 
 .footer-container {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 300px 1fr;
+    padding: 0 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     gap: 4rem;
 }
 
-.footer-logo {
+.footer-left {
     display: flex;
     flex-direction: column;
+    gap: 3rem;
+}
+
+.footer-logo-block {
+    display: flex;
+    align-items: center;
     gap: 1.5rem;
 }
 
-.hexagon-logo {
-    width: 80px;
-    height: 90px;
-    background-color: white;
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.footer-logo-img {
+    width: 60px;
+    height: auto;
+    /* Invert logo to white if it's black/teal */
+    filter: brightness(0) invert(1);
 }
 
-.hexagon-logo span {
-    color: var(--color-primary);
-    font-weight: 700;
-    font-size: 1.5rem;
-    font-family: var(--font-heading);
-}
-
-.footer-logo h3 {
-    font-family: var(--font-heading);
-    font-size: 1.3rem;
+.footer-logo-text h3 {
+    font-family: var(--font-body);
+    font-size: 1.1rem;
     font-weight: 400;
-    line-height: 1.4;
+    line-height: 1.2;
     margin: 0;
-    color: white;
 }
 
-.footer-content h2 {
+.footer-nav p {
     font-family: var(--font-heading);
+    /* Serif for these links */
     font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 1.5;
-    margin-bottom: 2rem;
-    color: white;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0.8rem;
+    font-weight: 700;
 }
 
-.contact-info {
+.footer-right {
+    max-width: 500px;
+}
+
+.footer-right h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
     margin-bottom: 2rem;
 }
 
-.contact-info p {
-    margin: 0.5rem 0;
-    font-size: 1rem;
+.footer-contact p {
+    font-size: 0.95rem;
     line-height: 1.6;
-    color: rgba(255, 255, 255, 0.9);
+    opacity: 0.9;
+    margin-bottom: 0.2rem;
 }
 
-.contact-info .organization {
+.org-name {
+    margin-top: 1rem;
     font-weight: 600;
-    margin-top: 1.5rem;
 }
 
-.footer-buttons {
+.footer-actions {
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-top: 2rem;
 }
 
-.footer-button {
-    background-color: transparent;
-    border: 2px solid white;
+.footer-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
     color: white;
-    padding: 1rem 2rem;
-    font-size: 0.9rem;
-    font-weight: 600;
-    font-family: var(--font-body);
-    cursor: pointer;
-    display: inline-flex;
+    padding: 0.8rem 1.5rem;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
-    transition: all 0.3s ease;
-    text-align: left;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 100%;
 }
 
-.footer-button:hover {
-    background-color: white;
-    color: var(--color-primary);
-    transform: translateX(5px);
+.footer-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: white;
 }
 
+.footer-bottom-bar {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1.5rem 0;
+    background-color: #5F8F8F;
+    /* Lighter teal strip */
+}
+
+.footer-bottom-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+/* Original nested rules, now un-nested and renamed/modified */
 .footer-bottom {
     background-color: rgba(0, 0, 0, 0.2);
     padding: 1.5rem 2rem;
@@ -135,5 +151,16 @@
     .footer-logo {
         align-items: center;
         text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .footer-btn {
+        width: auto;
     }
 }

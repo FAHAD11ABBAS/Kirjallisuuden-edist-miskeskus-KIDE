@@ -2,49 +2,57 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { ArrowRight } from 'lucide-react';
 import './Footer.css';
+import logoKide from '../assets/logo_kide.png';
 
 const Footer = () => {
     const { t } = useTranslation();
 
     return (
         <footer className="footer">
-            <div className="footer-main">
-                <div className="footer-container">
-                    <div className="footer-logo">
-                        <div className="hexagon-logo">
-                            <span>KIDE</span>
+            <div className="footer-container">
+                <div className="footer-left">
+                    <div className="footer-logo-block">
+                        <img src={logoKide} alt="KIDE" className="footer-logo-img" />
+                        <div className="footer-logo-text">
+                            <h3>Kirjallisuuden</h3>
+                            <h3>edistämiskeskus</h3>
                         </div>
-                        <h3>Kirjallisuuden<br />edistämiskeskus</h3>
                     </div>
 
-                    <div className="footer-content">
-                        <h2>{t('footer.title')}</h2>
+                    <div className="footer-nav">
+                        <p>{t('footer.left_nav.apurahat')}</p>
+                        <p>{t('footer.left_nav.residenssit')}</p>
+                        <p>{t('footer.left_nav.koulutusta')}</p>
+                    </div>
+                </div>
 
-                        <div className="contact-info">
-                            <p className="organization">{t('footer.organization')}</p>
-                            <p>{t('footer.phone')}</p>
-                            <p>{t('footer.email')}</p>
-                            <p>{t('footer.address')}</p>
-                        </div>
+                <div className="footer-right">
+                    <h4>{t('footer.title')}</h4>
 
-                        <div className="footer-buttons">
-                            <button className="footer-button">
-                                {t('footer.button1')}
-                                <ArrowRight size={20} />
-                            </button>
-                            <button className="footer-button">
-                                {t('footer.button2')}
-                                <ArrowRight size={20} />
-                            </button>
-                        </div>
+                    <div className="footer-contact">
+                        <p className="org-name">{t('footer.organization')}</p>
+                        <p>{t('footer.phone')}</p>
+                        <p>{t('footer.email')}</p>
+                        <p>{t('footer.address')}</p>
+                    </div>
+
+                    <div className="footer-actions">
+                        <button className="footer-btn">
+                            {t('footer.button1')}
+                            <ArrowRight size={16} />
+                        </button>
+                        <button className="footer-btn">
+                            {t('footer.button2')}
+                            <ArrowRight size={16} />
+                        </button>
                     </div>
                 </div>
             </div>
 
-            <div className="footer-bottom">
-                <div className="footer-container">
-                    <p className="footer-links">{t('footer.links')}</p>
-                    <p className="footer-rights">{t('footer.rights')}</p>
+            <div className="footer-bottom-bar">
+                <div className="footer-bottom-content">
+                    <span>{t('footer.links')}</span>
+                    <span>{t('footer.rights')}</span>
                 </div>
             </div>
         </footer>

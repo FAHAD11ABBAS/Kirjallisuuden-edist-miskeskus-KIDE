@@ -1,20 +1,32 @@
 .diagram-section {
-    width: 100%;
-    background-color: var(--color-surface);
-    padding: 6rem 2rem;
-}
-
-.diagram-container {
-    max-width: 900px;
-    margin: 0 auto;
+    padding: 6rem 1rem;
+    background-color: #EBF5F4;
+    /* Light teal bg */
     text-align: center;
 }
 
-.diagram-container h2 {
+.diagram-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.diagram-section h2 {
     font-family: var(--font-heading);
     font-size: 2.5rem;
     color: var(--color-primary);
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
+}
+
+.diagram-image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.diagram-full-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 600px;
 }
 
 .circular-diagram {

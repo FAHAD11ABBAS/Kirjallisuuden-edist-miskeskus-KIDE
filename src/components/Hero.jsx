@@ -2,56 +2,46 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import './Hero.css';
+import logoKide from '../assets/logo_kide.png';
+import heroBg from '../assets/hero_bg.jpg';
 
 const Hero = () => {
     const { t } = useTranslation();
 
     return (
-        <section className="hero">
-            <div className="hero-content">
-                <motion.div
-                    className="language-badge"
-                    initial={{ opacity: 0, y: -20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                >
-                    <span className="lang-active">{t('nav.home')}</span>
-                    <span className="lang-divider">|</span>
-                    <a href="#svenska" className="lang-link">{t('hero.language')}</a>
-                </motion.div>
+        <div className="hero-wrapper">
+            <section className="hero-top">
+                <div className="container hero-container">
+                    <motion.div
+                        className="hero-logo-box"
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 0.5 }}
+                    >
+                        <img src={logoKide} alt="KIDE Logo" className="kide-logo" />
+                    </motion.div>
 
-                <motion.div
-                    className="hero-logo"
-                    initial={{ opacity: 0, scale: 0.8 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ delay: 0.2 }}
-                >
-                    <div className="hexagon-hero">
-                        <span>KIDE</span>
-                    </div>
-                </motion.div>
+                    <motion.div
+                        className="hero-text-box"
+                        initial={{ opacity: 0, x: 20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.2, duration: 0.5 }}
+                    >
+                        <h1>{t('hero.title')}</h1>
+                        <p className="hero-subtitle">{t('hero.subtitle')}</p>
+                    </motion.div>
+                </div>
+            </section>
 
-                <motion.h1
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.4 }}
-                >
-                    {t('hero.title')}
-                </motion.h1>
-
-                <motion.p
-                    className="hero-subtitle"
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.6 }}
-                >
-                    {t('hero.subtitle')}
-                </motion.p>
-            </div>
-
-            <div className="hero-image">
-                <img src="/images/writing-person.jpg" alt="Person writing" />
-            </div>
-        </section>
+            <section className="hero-visuals">
+                <div className="visual-left">
+                    <img src={heroBg} alt="Writing" />
+                </div>
+                <div className="visual-right">
+                    <div className="pattern-overlay"></div>
+                </div>
+            </section>
+        </div>
     );
 };
 
